@@ -133,6 +133,20 @@ img {
   color: var(--secondary-text-color);
 }
 
+.our-strength-icon-container {
+  margin-bottom: 30px;
+  padding: 25px 0;
+  border-radius: 4px;
+  background-color: var(--light-background-color);
+}
+
+.our-strength-icon {
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+}
+
 /* what we do */
 
 .what-we-do-header-2,
