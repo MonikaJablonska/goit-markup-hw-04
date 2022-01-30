@@ -86,6 +86,20 @@ img {
   color: var(--accent);
 }
 
+.link-contact {
+  display: flex;
+  align-items: center;
+}
+
+.icon-contact-header {
+  margin-right: 10px;
+  fill: var(--main-text-color);
+}
+
+.link-contact:hover > .icon-contact-header,
+.link-contact:focus > .icon-contact-header {
+  fill: var(--accent);
+}
 /* hero */
 
 .hero {
@@ -263,6 +277,7 @@ img {
 }
 
 .link:hover,
+.link:focus,
 .link-active {
   color: var(--accent);
 }
