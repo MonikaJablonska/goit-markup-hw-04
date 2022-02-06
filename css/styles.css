@@ -103,6 +103,8 @@ img {
 /* hero */
 
 .hero {
+  max-width: 1600px;
+  margin: auto;
   padding: 200px 0;
   text-align: center;
   background-image: linear-gradient(
